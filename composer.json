@@ -1,0 +1,43 @@
+{
+    "name": "serv-tec\/php-snapchat",
+    "description": "A PHP library for the Snapchat API",
+    "keywords": [
+        "snapchat"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Stelljes",
+            "email": "iam@danielstelljes.net"
+        },
+        {
+            "name": "serv-tec",
+            "homepage": "https:\/\/github.com\/serv-tec",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mcrypt": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "src\/"
+        ]
+    },
+    "old": {
+        "owner": "jorgenphi",
+        "name": "php-snapchat"
+    },
+    "support": {
+        "issues": "https:\/\/github.com\/serv-tec\/Php-Snapchat\/issues",
+        "wiki": "https:\/\/github.com\/serv-tec\/Php-Snapchat\/wiki",
+        "source": "https:\/\/github.com\/serv-tec\/Php-Snapchat"
+    },
+    "replace": {
+        "jorgenphi\/php-snapchat": "*"
+    }
+}
